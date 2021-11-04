@@ -57,21 +57,17 @@ public class PersonHandler {
             String result = "";
             // identify array's type
             // identify array's variable-name
-            for (String person: personArray) {
-                String list = String.valueOf(personArray[i]);
-                result = result + list;
+
+            for (Person person : personArray) {
+             result = result + person;
             }
-            return null;
-            }
+            return result;
+        }
             // use the above discoveries to declare for-each-loop signature
             // begin loop
             // get `string Representation` of `currentPerson`
             // append `stringRepresentation` to `result` variable
             // end loop
-
-
-
-
 
 
         public Person[] getPersonArray () {
